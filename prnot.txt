@@ -9,6 +9,6 @@ def prn(a):
     else:
         return 'It is not prime.'
 
-
+#hygusduyguysg
 num = int(input('Enter a number'))
 print(prn(num))
