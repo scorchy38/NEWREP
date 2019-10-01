@@ -1,6 +1,6 @@
 def factorial(a):
     return 1 if (n==1 or n==0) else n*factorial(n-1)
 
-
+#kjnsjkfbsdgfisif
 num = int(input('Enter a number: '))
 print(factorial(num))
