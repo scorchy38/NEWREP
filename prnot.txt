@@ -1,0 +1,14 @@
+def prn(a):
+    if a > 1:
+        for n in range(2,a):
+            if a % n == 0:
+                return 'It is not prime.'
+        else:
+            return 'It is prime.'
+
+    else:
+        return 'It is not prime.'
+
+
+num = int(input('Enter a number'))
+print(prn(num))
